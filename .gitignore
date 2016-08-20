@@ -3,3 +3,18 @@
 ################################################################################
 
 /Sample/Northwind.Entities/bin/Debug
+/Sample/Northwind.Entities/obj/Debug
+/Source/Repository.Pattern/bin/Debug
+/Source/Repository.Pattern/obj/Debug
+/Source/Repository.Pattern.Ef6/bin/Debug
+/Source/Repository.Pattern.Ef6/obj/Debug
+/Source/Service.Pattern/bin/Debug
+/Source/Service.Pattern/obj/Debug
+/Sample/Northwind.Repository/bin/Debug
+/Sample/Northwind.Repository/obj/Debug
+/Sample/Northwind.Service/bin/Debug
+/Sample/Northwind.Service/obj/Debug
+/Sample/Northwind.Test/bin/Debug
+/Sample/Northwind.Test/obj/Debug
+/Sample/Northwind.Web/bin
+/Sample/Northwind.Web/obj/Debug
