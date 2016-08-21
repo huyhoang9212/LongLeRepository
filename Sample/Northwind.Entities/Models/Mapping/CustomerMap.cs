@@ -48,7 +48,8 @@ namespace Northwind.Entities.Models.Mapping
                 .HasMaxLength(24);
             this.Property(t => t.HomePhone)
                 .HasMaxLength(12);
-                
+            this.Property(t => t.MobilePhone)
+          .HasMaxLength(12);
             // Table & Column Mappings
             this.ToTable("Customers");
             this.Property(t => t.CustomerID).HasColumnName("CustomerID");
@@ -63,6 +64,7 @@ namespace Northwind.Entities.Models.Mapping
             this.Property(t => t.Phone).HasColumnName("Phone");
             this.Property(t => t.Fax).HasColumnName("Fax");
             this.Property(t => t.HomePhone).HasColumnName("HomePhone");
+            this.Property(t => t.HomePhone).HasColumnName("MobilePhone");
         }
     }
 }

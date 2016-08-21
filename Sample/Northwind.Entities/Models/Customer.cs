@@ -24,6 +24,8 @@ namespace Northwind.Entities.Models
         public string Phone { get; set; }
         public string Fax { get; set; }
         public string HomePhone { get; set; }
+
+        public string MobilePhone { get; set; }
         public virtual ICollection<Order> Orders { get; set; }
         public virtual ICollection<CustomerDemographic> CustomerDemographics { get; set; }
     }
