@@ -10,8 +10,6 @@ namespace Northwind.Entities.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "Northwind.Entities.Models.NorthwindContext";
-            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(Northwind.Entities.Models.NorthwindContext context)
